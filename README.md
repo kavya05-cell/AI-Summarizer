@@ -144,3 +144,8 @@ This project demonstrates the design, implementation, and deployment of a real-w
 
 ## Final Outcome
 A fully deployed AI-powered multimodal summarization system capable of processing text, audio, and video inputs through a unified, production-ready pipeline.
+
+--- 
+
+## Attempted Cloud Deployment
+The application was deployed on Render. Due to limited memory on free-tier instances, the service exceeds available resources when loading ASR and summarization models. The deployment is fully compatible with higher-memory or GPU-backed instances.
